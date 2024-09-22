@@ -1,0 +1,10 @@
+[
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.crowdsense.xamarin_app1",
+        "sha256_cert_fingerprints": ["AA:14:AB:8A:EB:52:32:05:15:E5:3B:36:4D:3B:E3:E9:CC:15:8E:9B:FA:E5:9E:63:92:9B:0B:20:74:30:AE:6A"]
+      }
+    }
+]

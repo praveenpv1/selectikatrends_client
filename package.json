@@ -1,0 +1,54 @@
+{
+  "name": "selectikatrends-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.6.1",
+    "bootstrap-daterangepicker": "^3.1.0",
+    "env-cmd": "^10.1.0",
+    "font-awesome": "^4.7.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "prop-types": "^15.7.2",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.6.4",
+    "react-bootstrap-daterangepicker": "^4.1.0",
+    "react-bootstrap-sweetalert": "^5.2.0",
+    "react-browser-notifications": "^1.0.14",
+    "react-data-table-component": "^7.6.2",
+    "react-device-detect": "^1.17.0",
+    "react-dom": "^16.14.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "3.0.0",
+    "react-tooltip": "^4.2.21",
+    "redux": "^4.1.2",
+    "redux-thunk": "^2.4.0",
+    "tslib": "^2.3.1",
+    "webpack": "4.29.6"
+  },
+  "scripts": {
+    "start": "env-cmd -e development react-scripts start",
+    "dev": "env-cmd -e development react-scripts start",
+    "demo": "env-cmd -e demo react-scripts start",
+    "build-dev": "env-cmd -e development react-scripts build",
+    "build-demo": "env-cmd -e demo react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

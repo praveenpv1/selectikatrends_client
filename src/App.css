@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+:root {
+  --tooltiparrowborderbottomcolor: #606060;
+  --tooltipshadowcolor1: rgba(96, 96, 96, 0.16);
+  --tooltipshadowcolor2: rgba(96, 96, 96, 0.23);
+}
+
+body {
+
+  font-family: 'Roboto', sans-serif !important;
+  background-color: #ffffff;
+  font-size: 13px;
+
+}
+
+.tooltip.bs-tooltip-bottom .arrow::before {
+  margin-left: -3px;
+  content: '';
+  border-width: 0 6px 6px !important;
+  /* border-bottom-color: var(--tooltiparrowborderbottomcolor) !important; */
+  border-bottom-color: transparent !important;
+}
+
+#trigger-tool-tip .tooltip-inner {
+  box-shadow: 1px 0px 2px var(--tooltipshadowcolor1), 1px 0px 6px var(--tooltipshadowcolor2) !important;
+}
+
+.pad15 {
+  padding: 15px;
+}
+.overflow-auto {
+  overflow: auto;
+}
+.table > thead > tr > th {
+  font-size: 13px;
+  border: 1px solid;
+  word-wrap: break-word;
+  text-align: center;
+  vertical-align: middle;
+}
+.table > tbody > tr > td {
+  padding: 3px;
+  min-width: 50px;
+  
+  word-wrap: break-word;
+  text-wrap: wrap;
+  overflow: hidden;
+  border: 1px solid;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+/* //Datatable style overrides */
+.cellwrap {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* min-height: 90px;
+  max-height: 150px; */
+}
+
+.rdt_TableCol {
+  max-width: 100px !important;
+  font-size: 13px;
+  border: 1px solid;
+  font-weight: bold;
+  padding: 5px !important;
+  align-items: center;
+  justify-content: center;
+  
+}
+.rdt_TableCell {
+  font-size: 13px !important;
+  min-width: 50px !important;
+  max-width: 100px !important;
+  /* max-height: 150px; */
+  /* flex-wrap: wrap; */
+  /* white-space: nowrap  ; */
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  /* border: 1px solid; */
+  border-left: 1px solid #e9e9e9;
+  border-right: 1px solid #e9e9e9;
+  padding: 5px !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+/* .rdt_TableRow .rdt_TableCell:first-child {
+  display: block !important
+} */
+.rdt_TableCell {
+  display: grid !important;
+}
+/* .sc-fAUdSK.sc-dntaoT.sc-dpBQxM.bzEluS.dQcPXM.cTpVIp.rdt_TableCol:first-child {
+  display: inline-grid;
+} */
+.rdt_TableCol div:first-child {
+  word-wrap: break-word !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  white-space: normal !important;
+  overflow: unset !important;
+  text-overflow: unset !important;
+}
+.rdt_Pagination {
+  justify-content: center !important;
+}
